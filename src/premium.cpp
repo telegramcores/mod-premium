@@ -82,7 +82,7 @@ public:
         if (!sConfigMgr->GetOption<bool>("PremiumAccount", true))
             return false;
 
-        QueryResult result = CharacterDatabase.Query("SELECT `AccountId` FROM `premium` WHERE `active`=1 AND `AccountId`={}", player->GetSession()->GetAccountId());
+     /*   QueryResult result = CharacterDatabase.Query("SELECT `AccountId` FROM `premium` WHERE `active`=1 AND `AccountId`={}", player->GetSession()->GetAccountId()); */
 
         if (!result)
             return false;
