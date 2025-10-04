@@ -1,6 +1,6 @@
 SET @MENUID:=62001;
 SET @ID:=90003;
-CHARSET=utf8mb4;
+
 
 DELETE FROM `gossip_menu_option` WHERE `MenuID`=@MENUID AND `OptionID` BETWEEN 0 AND 9;
 INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionText`, `OptionBroadcastTextID`, `OptionType`, `OptionNpcFlag`, `ActionMenuID`, `ActionPoiID`, `BoxCoded`, `BoxMoney`, `BoxText`, `BoxBroadcastTextID`, `VerifiedBuild`) VALUES
@@ -42,5 +42,4 @@ INSERT INTO `npc_text` (`ID`, `text0_0`, `text0_1`, `BroadcastTextID0`, `lang0`,
 DELETE FROM `npc_text_locale` WHERE `ID`=@ID;
 INSERT INTO `npc_text_locale` (`ID`, `Locale`, `Text0_0`, `Text0_1`, `Text1_0`, `Text1_1`, `Text2_0`, `Text2_1`, `Text3_0`, `Text3_1`, `Text4_0`, `Text4_1`, `Text5_0`, `Text5_1`, `Text6_0`, `Text6_1`, `Text7_0`, `Text7_1`) VALUES
 (@ID, "esES", "Saludos, este es un modulo premium de la comunidad de AzerothCore. Este menu, proporciona una serie de comunidades, para las personas que colaboran con el servidor.", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
-(@ID, "ruRU", "Приветствую! Добро пожаловать в премиум! ", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""),
 (@ID, "esMX", "Saludos, este es un modulo premium de la comunidad de AzerothCore. Este menu, proporciona una serie de comunidades, para las personas que colaboran con el servidor.", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "");
