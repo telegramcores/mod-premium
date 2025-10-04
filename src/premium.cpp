@@ -182,7 +182,7 @@ public:
                     case LOCALE_zhTW:
                     case LOCALE_ruRU:
                     {
-                        salute = "Greetings";
+                        salute = "Приветствую, премиум-клиент!";
                         break;
                     }
                     case LOCALE_esES:
@@ -197,7 +197,7 @@ public:
                 else
                 {
                     vendorId = NPC_VENDOR_H;
-                    salute = "Zug zug";
+                    salute = "Приветствую, премиум-клиент!";
                 }
 
                 SummonTempNPC(player, vendorId, salute.c_str());
@@ -239,7 +239,7 @@ public:
                     case LOCALE_zhTW:
                     case LOCALE_ruRU:
                     {
-                        salute = "Привет, дававай быстрее, мне нужно возвращаться в Оргримар!";
+                        salute = "Привет, давай быстрее, мне нужно возвращаться в Оргримар!";
                         break;
                     }
                     case LOCALE_esES:
@@ -264,7 +264,7 @@ public:
                     case LOCALE_zhTW:
                     case LOCALE_ruRU:
                     {
-                        salute = "Привет, дававай быстрее, мне нужно возвращаться в Штормград!";
+                        salute = "Привет, давай быстрее, мне нужно возвращаться в Штормград!";
                         break;
                     }
                     case LOCALE_esES:
