@@ -239,7 +239,7 @@ public:
                     case LOCALE_zhTW:
                     case LOCALE_ruRU:
                     {
-                        salute = "I will go shortly, I need to get back to Orgrimmar";
+                        salute = "Привет, дававай быстрее, мне нужно возвращаться в Оргримар!";
                         break;
                     }
                     case LOCALE_esES:
@@ -264,7 +264,7 @@ public:
                     case LOCALE_zhTW:
                     case LOCALE_ruRU:
                     {
-                        salute = "I will go shortly, I need to get back to Stormwind City";
+                        salute = "Привет, дававай быстрее, мне нужно возвращаться в Штормград!";
                         break;
                     }
                     case LOCALE_esES:
