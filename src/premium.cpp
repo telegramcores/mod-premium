@@ -11,7 +11,7 @@ enum Vendors
 {
     NPC_VENDOR_A    = 54,
     NPC_VENDOR_H    = 3163,
-    NPC_AUCTION_H   = 9856,
+    NPC_AUCTION_H   = 40725, /* 9856 default*/
     NPC_AUCTION_A   = 8670
 };
 
